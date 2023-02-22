@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 // import { FaArrowUp } from "react-icons/fa";
 // import './GoToTop.css'
 
@@ -31,7 +32,7 @@ const GoToTop = () => {
     <Wrapper>
       {isVisible && (
         <div className="top-btn" onClick={goToBtn}>
-          <i class="bi bi-arrow-up-circle-fill"></i>
+         <ArrowUpwardIcon style={{backgroundColor:'white', color:'blue'}}/>
         </div>
       )}
     </Wrapper>

@@ -61,7 +61,7 @@ Deaths in global as well as any part of Country or indiviual State. For CSS I ha
   </div>
 
   <div className="card-body">
-  <a href="https://github.com/coderSatya/covidchart" target="_blank" className="card-link">Github Link</a>
+  <a href="https://github.com/coderSatya/myportfolio" target="_blank" className="card-link">Github Link</a>
     {/* <a href="https://coviddatachart.netlify.app/" target="_blank" className="card-link">In Project</a> */}
   
   </div>

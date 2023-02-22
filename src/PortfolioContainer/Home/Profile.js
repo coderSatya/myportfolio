@@ -10,6 +10,11 @@ import Navbar from '../Navbar/Navbar';
 import Projects from '../Projects/Projects';
 import Skill from '../Skills/Skill';
 import './Profile.css';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Profile = () => {
   return (
@@ -25,19 +30,19 @@ const Profile = () => {
                 <div className='colz'>
                     <div className='colz-icon'>
                     <a href='https://m.facebook.com/sataya.prakash.58?_rdr' target="_blank">
-                    <i className="bi bi-facebook"></i>
+                   <FacebookIcon style={{color:'white', margin:'5px'}}/>
                     </a>
                     <a href='https://www.linkedin.com/in/satya-prakash-91388b1b3/' target="_blank">
-                    <i className="bi bi-linkedin"></i>
+                    <LinkedInIcon style={{color:'white', margin:'5px'}}/>
                     </a>
                     <a href='#'>
-                    <i className="bi bi-instagram"></i>
+                   <InstagramIcon style={{color:'white', margin:'5px'}}/>
                     </a>
                     <a href='https://www.youtube.com/@user-wc5hn8iw3q' target="_blank">
-                    <i class="bi bi-youtube"></i>
+                    <YouTubeIcon style={{color:'white', margin:'5px'}}/>
                     </a>
                     <a href='#'>
-                    <i className="bi bi-whatsapp"></i>
+                   <WhatsAppIcon style={{color:'white', margin:'5px'}}/>
                     </a>
                     </div>
                 </div>

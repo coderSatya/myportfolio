@@ -1,5 +1,8 @@
 import React from 'react';
 import './Contact.css';
+import HomeIcon from '@mui/icons-material/Home';
+import PhoneIcon from '@mui/icons-material/Phone';
+import MarkunreadIcon from '@mui/icons-material/Markunread';
 
 const Contact = () => {
   return (
@@ -17,21 +20,21 @@ const Contact = () => {
         <section className="contact-us">
         <div className="contact-col">
                 <div>
-                <i className="bi bi-house-check-fill"></i>
+                <HomeIcon style={{fontSize:'28px',color:'#f44336',margin:'10px',marginRight:'30px'  }}/>
                     <span>
                         <h5>Near Manav Seva Sadan, Sunday Market</h5>
                         <p>Ratu, Ranchi, Jharkhand</p>
                     </span>
                 </div>
                 <div>
-                <i className="bi bi-telephone-fill"></i>
+               <PhoneIcon style={{fontSize:'28px',color:'#f44336',margin:'10px',marginRight:'30px'  }}/>
                     <span>
                         <h5>91-8506056814</h5>
                         <p>Monday to Saturday, 10a.m to 6p.m</p>
                     </span>
                 </div>
                 <div>
-                <i className="bi bi-envelope-fill"></i>
+                   <MarkunreadIcon style={{fontSize:'28px',color:'#f44336',margin:'10px',marginRight:'30px'  }}/>
                     <span>
                         <h5>sprakash6233@gmail.com</h5>
                         <p>Email for any query</p>
