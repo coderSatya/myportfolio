@@ -1,0 +1,13 @@
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+    margin:20px 0 20px 20px;
+
+}
+.navbar{
+    background-image: url('../../assests//bg.jpg');
+   
+}
+#nam{
+    font-size: 30px;
+}

@@ -1,0 +1,22 @@
+.skill{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px ;
+    margin:25px 0;
+}
+.sill-section{
+    margin:25px 25px;
+}
+.skill-img{
+   
+   display: flex; 
+   width: 300px;
+   flex-wrap: nowrap;
+   /* justify-content: center; */
+   justify-content: space-evenly;
+}
+.sill-section img{
+    margin:5px;
+    width:200px;
+    height: 150px;
+}

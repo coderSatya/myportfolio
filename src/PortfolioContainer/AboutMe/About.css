@@ -1,0 +1,37 @@
+.about{
+   text-align: center;
+   font-weight: bolder;
+   font-size: 30px ;
+   margin:25px 0;
+
+}
+.about-image{
+    width: 300px;
+    height: 200px;
+}
+.about-image{
+    height: 450px;
+    width: 400px;
+    background-image: url('../../assests/satya1.jpeg');
+    background-size: cover;
+    /* border-radius: 50%; */
+    /* border:5px solid dotted; */
+     background-repeat: no-repeat;
+    background-position: center; 
+}
+.about-data{
+ margin: 25px;
+}
+.about-info{
+    height: 320px;
+    width: 560px;
+    background-image: url('../../assests/talk.png');
+    background-size:contain;
+    /* border-radius: 50%; */
+    /* border:5px solid dotted; */
+     background-repeat: no-repeat;
+    background-position: center; 
+}
+.about-text{
+    margin-top: 40px;
+}
