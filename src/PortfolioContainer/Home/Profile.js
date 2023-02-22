@@ -80,7 +80,7 @@ const Profile = () => {
                         </a>
                     {/* </button> */}
                     
-                    <a href="Satyacv.pdf" download='Satya Satyacv.pdf'>
+                    <a href="finalresume.pdf" download='finalresume.pdf'>
                         <button className="btn highlighted-btn">Get Resume</button>
                     </a>
                 </div>

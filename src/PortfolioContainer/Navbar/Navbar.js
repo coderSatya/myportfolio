@@ -29,7 +29,7 @@ const Navbar = () => {
           <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#projects">Certifications</a>
+          <a className="nav-link active" aria-current="page" href="#certification">Certifications</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#experience">Experience</a>

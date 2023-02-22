@@ -3,11 +3,12 @@ import './Certification.css';
 import react from '../../assests//reactudemy.jpeg';
 import Next from '../../assests//Next.jpg';
 import node from '../../assests//node.jpg';
+import nextudemy from '../../assests//nextudemy.jpg';
 
 const Certification = () => {
   return (
     <>
-    <div className='certification-section campus'>
+    <div className='certification-section campus' id="certification">
         <h1 className='certificate'>Certifications</h1>
         <div className='certification-image'>
             <div className='col-4 course-col'>
@@ -17,7 +18,7 @@ const Certification = () => {
                     </div>
             </div>
             <div className='col-4 course-col'>
-                 <img className='image' src={Next} alt="react"/>
+                 <img className='image' src={nextudemy} alt="react"/>
                  <div className="layer">
                         <h3>Next</h3>
                     </div>
